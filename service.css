@@ -1,0 +1,73 @@
+/* Service Section Styles */
+#service-section {
+    position: relative;
+    width: 100%;
+    background: #FAFAFA;
+    padding: 50px 0;
+    text-align: center; /* Center align content */
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF3147;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 50px;
+}
+
+.service-title1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.service-description {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.service-img {
+    display: flex; /* Display contents in a row */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.service-slider {
+    overflow-x: hidden; /* Hide overflowing slides */
+    display: flex; /* Display slides in a row */
+    margin: 30px;
+}
+
+.service-slide {
+    flex: 0 0 calc(100% / 3); 
+    height: auto; /* Adjust height automatically */
+    /* object-fit: cover;  */
+    
+}
+
+.slider-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #aaa;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #FF3147;
+}

@@ -1,0 +1,26 @@
+/* footer.css */
+#footer {
+    background-color: #eb3939; /* Dark background color */
+    color: white; /* White text color */
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center; /* Center the text */
+}
+
+.footer-img img {
+    max-width: 100%; /* Make sure the image scales properly */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#footer p {
+    margin: 10px 0; /* Add some margin to paragraphs */
+    font-size: 14px; /* Smaller font size */
+}
+
+#footer a {
+    color: #fff; /* White color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+#footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}

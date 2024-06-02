@@ -1,0 +1,66 @@
+/* Layout Properties */
+#main {
+    position: relative;
+    width: 100%;
+    background: #FFFFFF;
+    opacity: 1;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.text-container {
+    max-width: 50%;
+}
+
+.image-container {
+    top: 100px;
+    left: 1058px;
+    width: 487px;
+    height: 737px;
+    background: transparent url('hero.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+/* UI Properties */
+.award-winning {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FF3147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px; /* Added margin for better spacing */
+}
+
+.digital-marketing-agency {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px; /* Added margin for better spacing */
+}
+
+.description {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 20px; /* Added margin for better spacing */
+}
+
+button {
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FF3147;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+

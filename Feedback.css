@@ -1,0 +1,35 @@
+/* Feedback Section */
+#Feedback {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background color */
+}
+
+#Feedback .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ec1c1c;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#Feedback .service-title1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+#Feedback p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666666;
+    margin: 0 auto 20px; /* Center align and add space below each paragraph */
+    max-width: 600px; /* Set a max-width for better readability */
+}
+
+#Feedback .feedback-p {
+    color: red; /* Set the text color to red */
+}
+
+

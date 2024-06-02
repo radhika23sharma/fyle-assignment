@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.js">
+    <style>
+        /* Add your custom CSS styles here */
+        .form-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .button {
+            background-color: #ff0000;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #cc0000;
+        }
+        /* Add any other custom styles you need */
+    </style>
+</head>
+<body>
+
+    <div class="form-wrapper">
+        <div class="form">
+            <h2>Contact Us</h2>
+            <form id="contact-form" action="https://getform.io/f/pbnvgglb" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="first-name" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="last-name" placeholder="Last Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="agree-checkbox" name="agree-checkbox" required>
+                    <label for="agree-checkbox">I agree to Fyle's terms and conditions, and provide consent to send me communication.</label>
+                </div>
+                <button type="submit" class="button">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        // JavaScript code using Axios
+        axios
+        .post("https://getform.io/f/pbnvgglb", {
+            message: "Hello, World",
+        },
+        { headers: {'Accept': 'application/json'}})
+        .then(response => console.log(response))
+        .catch(error => console.log(error))
+    </script>
+
+
+</body>
+</html>
